@@ -16,14 +16,14 @@ public interface AttackReskinConfig extends Config
 	 */
 
 	@ConfigItem(
-		keyName = "debugLogIds",
+		keyName = "developerMode",
 		name = "Log graphic IDs to chat",
 		description = "Diagnostic only: prints the ID of every ground graphic/spotanim that "
 			+ "spawns near you, for confirming the hardcoded IDs still match the live game. "
 			+ "Does not change plugin behaviour.",
 		position = 1
 	)
-	default boolean debugLogIds()
+	default boolean developerMode()
 	{
 		return false;
 	}
