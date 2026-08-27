@@ -37,7 +37,7 @@ import net.runelite.client.plugins.PluginDescriptor;
  */
 @Slf4j
 @PluginDescriptor(
-	name = "Attack Reskin",
+	name = "PNM Grasping Claw Animation Change",
 	description = "Replaces the visual of Phosani's Nightmare's black hole with Huey's ground lightning strike",
 	tags = {"nightmare", "phosani", "hueycoatl", "huey", "graphics", "cosmetic"}
 )
