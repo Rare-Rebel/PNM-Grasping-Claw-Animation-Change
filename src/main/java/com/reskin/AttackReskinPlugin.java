@@ -49,7 +49,7 @@ public class AttackReskinPlugin extends Plugin
 	 * VERIFY THIS against a live capture (turn on "Log graphic IDs to chat" and fight
 	 * Phosani's Nightmare) before publishing - update this constant if it's wrong.
 	 */
-	private static final int SOURCE_GRAPHIC_ID = 1767;
+	private static final int SOURCE_GRAPHIC_ID = 1754;
 
 	/**
 	 * Hueycoatl's ground lightning strike.
@@ -57,7 +57,7 @@ public class AttackReskinPlugin extends Plugin
 	 * VERIFY THIS against a live capture (turn on "Log graphic IDs to chat" and fight
 	 * Hueycoatl) before publishing - update this constant if it's wrong.
 	 */
-	private static final int TARGET_GRAPHIC_ID = 2429;
+	private static final int TARGET_GRAPHIC_ID = 55209;
 
 	@Inject
 	private Client client;
