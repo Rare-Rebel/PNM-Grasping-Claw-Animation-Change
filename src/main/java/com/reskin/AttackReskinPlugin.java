@@ -18,6 +18,7 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.api.gameval.ObjectID;
 
 /**
  * Cosmetically replaces the look of Phosani's Nightmare's "black hole" ground effect
@@ -57,7 +58,7 @@ public class AttackReskinPlugin extends Plugin
 	 * VERIFY THIS against a live capture (turn on "Log graphic IDs to chat" and fight
 	 * Hueycoatl) before publishing - update this constant if it's wrong.
 	 */
-	private static final int TARGET_GRAPHIC_ID = 55209;
+	private static final int TARGET_GRAPHIC_ID = HUEY_ATTACK_TILES_LOC; = 55209;
 
 	@Inject
 	private Client client;
